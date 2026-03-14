@@ -1,93 +1,114 @@
 # 🐍 Projetos em Python  
 
-Este repositório reúne diversos projetos e exercícios desenvolvidos durante meus estudos em Python 3, com foco em programação orientada a objetos (POO), manipulação de listas, loops, funções e boas práticas.  
+Este repositório reúne diversos projetos e exercícios desenvolvidos durante meus estudos em Python 3, com foco em programação orientada a objetos, manipulação de listas, loops, funções e boas práticas.
 
-Cada projeto representa um passo na jornada de aprendizado e serve como base para estudo, revisão ou futuras melhorias.  
+Cada projeto representa uma etapa da jornada de aprendizado e pode servir como base para estudo, revisão ou futuras melhorias.
 
 ---
 
 ## 📂 Projetos e Algoritmos  
 
-### 1. 🎬 Gestão de Clientes e Planos de Streaming  
-Arquivo: `clientes.py`  
+### 1. 🎬 Gerenciamento de Clientes e Planos de Streaming  
 
-- Classe `Clientes` com atributos: nome, e-mail e plano.  
-- Planos disponíveis: `Gold` e `Platinum`.  
-- Funcionalidades:  
-  - Alterar plano.  
-  - Validar plano selecionado.  
-  - Assistir a um filme (com restrição baseada no plano do cliente).  
+Arquivo: `clientes.py`
 
-➡️ Exemplo:  
+- Classe `Clientes` com atributos nome, email e plano.
+- Planos disponíveis: `Gold` e `Platinum`.
+- Funcionalidades:
+  - Alterar plano.
+  - Validar o plano selecionado.
+  - Assistir a um filme (restrito de acordo com o plano do cliente).
+
+➡️ Exemplo:
+
 ```python
 cliente1 = Clientes('João', 'joao@email.com', 'Platinum')
+
 cliente1.mudar_plano('Gold')
-
-2. 🏪 Sistema de Controle de Estoque
-Arquivo: estoque.py
-
-Menu interativo via console com as opções:
-
-Adicionar produto ao estoque
-
-Verificar estoque
-
-Remover produto do estoque (parcial ou total)
-
-Sair do sistema
-
-Estrutura de dados: lista de dicionários ({'Produto': nome, 'Quantidade': valor})
-
-Uso de loops, validações e tratamento de erros.
-
-3. 👨‍💼 Sistema de Registro e Gestão de Funcionários
-Arquivo: funcionarios.py
-
-Funções para:
-
-Cadastrar novos funcionários (com dados como CPF, RG, endereço, cargo, salário, etc.).
-
-Listar funcionários ativos.
-
-Atualizar informações de funcionários.
-
-Bloquear e desbloquear funcionários.
-
-Destaques:
-
-Funções auxiliares para formatação de CPF, RGs e datas.
-
-Controle de status (Ativo/Inativo) para funcionários.
-
-Fortes validações de entrada de usuário.
-
-🛠️ Tecnologias Utilizadas
-Python 3.x
-
-Bibliotecas nativas: time, os
-
-▶️ Como Executar
-Clone o repositório:
-
-Bash
-git clone [https://github.com/joaoofontenelle/PythonProjects.git](https://github.com/joaoofontenelle/PythonProjects.git)
-Entre na pasta do projeto:
-
-Bash
-cd PythonProjects
-Execute qualquer script:
-
-Bash
-python nome_do_arquivo.py
-🎯 Objetivo
-Este repositório visa:
-
-Consolidar conhecimentos adquiridos durante os estudos de Python.
-
-Reunir projetos práticos que simulam sistemas do mundo real.
-
-Servir como portfólio de aprendizado e prática de programação.
-
-👨‍💻 Autor
-Desenvolvido por João Victório Dos Santos Fontenelle 📧 Contato: joaofontenelle12570@gmail.com
 cliente1.ver_filme('Star Wars', 'Platinum')
+```
+
+---
+
+### 2. 🏪 Sistema de Controle de Estoque
+
+Arquivo: `estoque.py`
+
+- Menu interativo no console com opções:
+
+  1. Adicionar produto ao estoque
+  2. Consultar estoque
+  3. Remover produto do estoque (parcial ou total)
+  4. Sair do sistema
+
+- Estrutura de dados: lista de dicionários (`{'Produto': nome, 'Quantidade': valor}`)
+
+- Uso de **loops, validações e tratamento de erros**.
+
+---
+
+### 3. 👨‍💼 Sistema de Cadastro e Gestão de Funcionários
+
+Arquivo: `funcionarios.py`
+
+- Funções para:
+
+  - Cadastrar novos funcionários (com dados como CPF, RG, endereço, cargo, salário, etc.).
+  - Listar funcionários ativos.
+  - Atualizar informações dos funcionários.
+  - Bloquear e desbloquear funcionários.
+
+- Destaques:
+
+  - Funções auxiliares para **formatação de CPF, RG e datas**.
+  - **Controle de status (Ativo/Inativo)** dos funcionários.
+  - Validações robustas de entrada de dados do usuário.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.x**
+- Bibliotecas nativas: `time`, `os`
+
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/joaoofontenelle/PythonProjects.git
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd PythonProjects
+```
+
+3. Execute qualquer script:
+
+```bash
+python nome_do_arquivo.py
+```
+
+---
+
+## 🎯 Objetivo
+
+Este repositório tem como objetivo:
+
+- Consolidar o conhecimento adquirido durante os estudos em Python.
+- Reunir projetos práticos que simulam **sistemas do mundo real**.
+- Servir como portfólio de aprendizado e prática de programação.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **João Victório Dos Santos Fontenelle**
+
+📧 Contato: joaofontenelle12570@gmail.com
+
+---
